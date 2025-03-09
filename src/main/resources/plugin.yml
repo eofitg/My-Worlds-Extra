@@ -1,0 +1,14 @@
+name: MyWorldsExtra
+version: '${project.version}'
+main: com.eofitg.myworldsextra.MyWorldsExtra
+prefix: MWE
+load: STARTUP
+depend: [My_Worlds]
+authors: [eofitg]
+website: https://github.com/eofitg/My-Worlds-Extra
+
+commands:
+  warp:
+    description: Warp to another world and unload the previous one.
+    usage: /warp <world_name>
+
