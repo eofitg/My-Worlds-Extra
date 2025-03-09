@@ -9,7 +9,7 @@
 - **Automatic World Loading**: When a player uses the `/warp` command to teleport to a new world, the world will be automatically loaded if it's not already loaded by the `MyWorlds` plugin.
 - **Automatic World Unloading**: If no players are present in a world and it’s not the default Minecraft world, the world will be automatically unloaded after players leave.
 
-## Commands
+### Commands
 - `/warp <world_name>`:
   - Teleports the player to the specified world. 
   - This command can be used as a replacement for the `/tpp <world_name>` command from the `MyWorlds` plugin.
